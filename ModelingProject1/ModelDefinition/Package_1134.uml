@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="fe69ff7a-6caf-4190-9212-2385b9383e43"
+  name="Grados"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="15823735-e554-4bff-9aca-b55aaebc9a61"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DGrados"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="f8989ed6-cb84-479e-baac-b6097d06e2b2"
+        name="LibroDeCalificaciones"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="1f4d1355-f19f-46d8-aeed-e62662550c1a"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Ftemp%2FGrados%2FGrados%2Fbin%2FDebug%2FGrados.exe Namespace%3DGrados Type%3DLibroDeCalificaciones"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3e395e82-b4d2-4abb-823b-823659f5f96f"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="036ee5ee-e36b-45f0-b428-c34fc3449763">
+                <propertyInstance
+                  Id="544c364b-91d8-4773-af8f-0609b581a63f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="873e6751-e580-4baf-95f9-4e65bd00fbbd">
+                <propertyInstance
+                  Id="3f83f0d7-d5be-40e8-aa41-19fc73f3ec5e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9cd57640-7e4f-40fb-bd23-61dfc3a90d92">
+                <propertyInstance
+                  Id="83573373-a73b-43f8-bb41-8fe9ce7755a2"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a19f54c0-5b48-4483-96b2-b3a859857d10">
+                <propertyInstance
+                  Id="ce8ea0f9-e2d7-447a-8d87-db8191aa0a86"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="863dac69-9a02-49ec-be40-4350d3173a8b">
+                <propertyInstance
+                  Id="f98ac78e-5f2a-4282-bab5-4b3b2666955c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="4a6d8bf1-0756-48f5-a9f4-fbb30aba10a5"
+            name="MinimaCalificacion"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="07217eba-234e-450a-9cf6-d4c7f61af474"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2Ftemp%2FGrados%2FGrados%2Fbin%2FDebug%2FGrados.exe Namespace%3DGrados Type%3DLibroDeCalificaciones Member%3DMinimaCalificacion"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b293e9bc-e652-4ec9-9e9f-a9d7b066f3d1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="61857c21-b118-41d0-953d-dd1a50669336">
+                    <propertyInstance
+                      Id="d9cf9b1d-6fe6-415c-b718-a535f7ae7a43"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="83353e44-4f97-4dbb-9041-d38a464394df">
+                    <propertyInstance
+                      Id="1876f70c-191a-4067-aab5-5d4736a6a2ca"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de3ecbb8-b7e9-4b55-b964-4644af22f04d">
+                    <propertyInstance
+                      Id="d38de75b-e4da-4ce1-a107-845f86c0c75b"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53de8cac-badd-4e70-acb7-c41f11a5c861">
+                    <propertyInstance
+                      Id="0af78425-8337-4f86-9816-5c5924438667"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fda32e2a-5937-4448-bc88-948c99b63c16">
+                    <propertyInstance
+                      Id="e00d2b04-77d6-417e-b033-ad4b31b237e2"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a1c3e9f9-3cc1-4fb5-8488-96a7f9679e8c"
+                LastKnownName="Single"
+                LastKnownLocation="Package1_1134.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b4eff28b-2843-402a-a817-4e91320dc75f"
+            name="MaximaCalificacion"
+            isLeaf="false"
+            isStatic="true"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="68e4c875-6357-48e0-87c8-e716b2d85426"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2Ftemp%2FGrados%2FGrados%2Fbin%2FDebug%2FGrados.exe Namespace%3DGrados Type%3DLibroDeCalificaciones Member%3DMaximaCalificacion"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="59be22d8-9d8b-43b9-b022-09f0359a86e6"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3bd2076-3a48-4f04-9b6f-cb8a7bc5082f">
+                    <propertyInstance
+                      Id="3e7ee73e-2f36-41be-9f8f-404d91782ce1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0d99f58b-6a43-428f-b4b0-20c7cbaf6300">
+                    <propertyInstance
+                      Id="bd97e1d2-dd5f-4624-99a2-4d61a8737a49"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b2a83095-f252-4645-b7b3-f116ca9eb53e">
+                    <propertyInstance
+                      Id="61af3996-d003-489f-ad72-4e32369b0a0f"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dd7d022-af8d-4fc0-98ae-c7238a648ebd">
+                    <propertyInstance
+                      Id="83ac886c-c9fe-428e-98b1-b5d7ae5c06e4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="22d943ba-1952-49a2-99a6-1c0f5c9e6c3f">
+                    <propertyInstance
+                      Id="d9ce5f6e-f1c2-4c45-9f53-e7476b72796f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a1c3e9f9-3cc1-4fb5-8488-96a7f9679e8c"
+                LastKnownName="Single"
+                LastKnownLocation="Package1_1134.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="9f077cf7-97ec-4311-9d1e-2116fb72634f"
+            name="calificaciones"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="990e6d26-084f-4fe4-ac3d-5497cdc57909"
+                handle="viewcode://./CodeSchema_Field?Assembly%3Dfile:%2F%2F%2FC:%2Ftemp%2FGrados%2FGrados%2Fbin%2FDebug%2FGrados.exe Namespace%3DGrados Type%3DLibroDeCalificaciones Member%3Dcalificaciones"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="149cba1e-1db6-4c0b-a030-9e5d4813e578"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d063b63a-be7a-499a-9554-88f21b67edba">
+                    <propertyInstance
+                      Id="adb3ab06-d18a-4fd8-a10d-fb7850f1a4d6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="748cc19f-e4b5-471b-95f0-f4a6771ca6aa">
+                    <propertyInstance
+                      Id="928cf7ea-3bda-4521-816a-966cde3671a5"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48c49419-5cdb-4e3c-b3d5-52a4d031a28f">
+                    <propertyInstance
+                      Id="21b4cfac-0d7b-4889-8321-374a0b18d5f0"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1fa9df29-a2e3-4b5f-9bae-6f817b8dcd75">
+                    <propertyInstance
+                      Id="8a7f0367-99b2-4c7a-be46-276256a02616"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf5fbcf9-ebf2-4e6f-bdd8-5b69631ef5a3">
+                    <propertyInstance
+                      Id="288966c8-30a5-49e4-86cb-ef418bde3233"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4a3b1257-ff32-4932-93a8-6c3f89fbcc8d"
+                LastKnownName="List&lt;Single‎&gt;"
+                LastKnownLocation="Package3_1134.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="7fc3a18a-97f5-4f17-a228-ef0ac4a67d1e"
+            name="LibroDeCalificaciones"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c109e21c-66e0-4c89-bb33-277711aac7c3"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Ftemp%2FGrados%2FGrados%2Fbin%2FDebug%2FGrados.exe Namespace%3DGrados Type%3DLibroDeCalificaciones Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a95c67ec-bb95-4304-b3be-5f718c56ffbb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97b496ba-59f5-40d8-a519-db6ddd85655f">
+                    <propertyInstance
+                      Id="12bb0419-abcd-44b8-905f-fce20a0a90a4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8e7ef144-8f0e-4039-a2f9-fff1287ce96e">
+                    <propertyInstance
+                      Id="c5a3394c-0a45-453c-b71d-3371e8c4c108"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f54e6c2-f1e4-4d6b-bc45-44dfead848d9">
+                    <propertyInstance
+                      Id="c619b856-9384-4c0f-836c-a0ca71c7ccbc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c91f51b5-6f42-41df-8c27-f5f866f0500e">
+                    <propertyInstance
+                      Id="8a179cb0-c280-463a-b90a-51b46ec6e4a1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="782e036b-d77d-4990-b09d-fc0f3759df1b">
+                    <propertyInstance
+                      Id="ab027d45-0ed4-4b84-af87-8f7db1490bbf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2b31b6b-54ec-4590-93d0-dd277fad130e">
+                    <propertyInstance
+                      Id="8767a5af-5161-46db-a006-34d8a3ff6f73"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="497362db-57bd-436a-89b0-c0a9af04e239"
+            name="AddCalificacion"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="0fe2ef50-345e-4b8b-9fc5-8d89b3f0f1fa"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Ftemp%2FGrados%2FGrados%2Fbin%2FDebug%2FGrados.exe Namespace%3DGrados Type%3DLibroDeCalificaciones Member%3D(Name%3DAddCalificacion OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="5e5c3355-8406-4ba2-a964-5fd3db93b140"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7cb4d064-e768-4c1f-9903-700fbb9648a3">
+                    <propertyInstance
+                      Id="1599b420-efe1-438b-b65e-957a038198b4"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a337a28b-ed3c-406c-86c8-6d27eb5befc5">
+                    <propertyInstance
+                      Id="31ad9f94-84d3-494f-881a-d34256b67910"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cbdf0d84-c791-4239-b3f1-06c5ca346559">
+                    <propertyInstance
+                      Id="20d31eef-a60a-4689-b8a6-0e08e747f5e6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b57b703-a549-46ee-a537-c9aaa9f30633">
+                    <propertyInstance
+                      Id="f901ad47-e6e0-4636-b735-5cc2cb64a884"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="37ed24a3-7a4d-4180-9d28-ed166425a256">
+                    <propertyInstance
+                      Id="3cad01a1-c954-4c4c-8abf-7e4048a681a0"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ec9bb94-e8f2-455a-8498-370e85ce55d2">
+                    <propertyInstance
+                      Id="d55f987e-f4f2-4735-a6ad-28d8358a3aba"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4bd90ecf-df12-406a-8355-0cb2a740f6d5"
+                  name="calificacion"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="225bfdaf-c68b-4086-a60d-815ebcbcb210"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3Dfile:%2F%2F%2FC:%2Ftemp%2FGrados%2FGrados%2Fbin%2FDebug%2FGrados.exe Namespace%3DGrados Type%3DLibroDeCalificaciones Member%3D(Name%3DAddCalificacion OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.5%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DSingle)]) ParameterIdentifier%3Dcalificacion"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="a1c3e9f9-3cc1-4fb5-8488-96a7f9679e8c"
+                      LastKnownName="Single"
+                      LastKnownLocation="Package1_1134.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1fecf812-51cf-4931-bb86-9ff58bb9a9b6"
+            name="GenerarEstadistica"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1125a854-af78-4d83-bba6-17f6350c7b0d"
+                handle="viewcode://./CodeSchema_Method?Assembly%3Dfile:%2F%2F%2FC:%2Ftemp%2FGrados%2FGrados%2Fbin%2FDebug%2FGrados.exe Namespace%3DGrados Type%3DLibroDeCalificaciones Member%3DGenerarEstadistica"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="18781960-189f-46ef-878e-0455994fdfd6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b10b4684-13a9-4353-85e4-8ed82eb683a2">
+                    <propertyInstance
+                      Id="25b3050b-7fe4-4a83-a9e9-c0639ffc9d1e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="336c9004-49bc-48e0-95d6-65b870d942ab">
+                    <propertyInstance
+                      Id="e68117b4-77b0-44a0-abbf-43f24f0114c7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3f1167c-765f-4888-a5ea-35215d2d9448">
+                    <propertyInstance
+                      Id="9fefbe27-d056-41eb-bc3b-ccb0d470e049"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af76d71e-00d1-42d4-afa6-23b9522895dd">
+                    <propertyInstance
+                      Id="a09bd13f-1dab-47f5-8430-b9a73f3ff394"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f583a7b-a2bc-494c-a0c0-29c6378b8018">
+                    <propertyInstance
+                      Id="28f7f8e7-2fc2-4b61-84bd-23df293eae9e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9b1ea7f-6b17-421d-ac35-baca2fbb8578">
+                    <propertyInstance
+                      Id="69fbcfab-f861-4dfa-af64-356561db6cc5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="741fd990-0a5d-4f19-a1f7-83bc62e43b2b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4f7a2a5a-c29e-40ab-923e-d2a57ac9e49d"
+                      LastKnownName="Estadisticas"
+                      LastKnownLocation="Package_1134.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4f7a2a5a-c29e-40ab-923e-d2a57ac9e49d"
+        name="Estadisticas"
+        visibility="Package"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="61d0e39c-4c3b-4f6a-a1f0-6c759c237e7e"
+            handle="viewcode://./CodeSchema_Class?Assembly%3Dfile:%2F%2F%2FC:%2Ftemp%2FGrados%2FGrados%2Fbin%2FDebug%2FGrados.exe Namespace%3DGrados Type%3DEstadisticas"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="3cd4fbe2-6536-4a7b-a085-6ac66fb9cf0e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a011466-6950-42d9-a74f-fb364a774840">
+                <propertyInstance
+                  Id="e21d5900-dc2d-41db-b5e6-8559c6b78a26"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="9519d0a2-5b7d-40b6-a5fe-a6cbfd7218a7">
+                <propertyInstance
+                  Id="0d701c85-ef4c-4890-8363-035d9968d1b3"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="61afca66-dfd0-4201-9cb3-3c1eb948129a">
+                <propertyInstance
+                  Id="a493ea68-c883-4b2e-a745-f5430adba963"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0d36a8b5-1c57-47d0-bdfc-1f04e92101e6">
+                <propertyInstance
+                  Id="f1ce0584-03c7-4f55-bb63-b141423dfa60"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b1b296f6-745e-41b2-97a0-c4d7a242440b">
+                <propertyInstance
+                  Id="a8a13865-ded1-4798-91e0-4a64a31a611c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

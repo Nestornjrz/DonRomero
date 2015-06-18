@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 12.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Registro de generación de código/transformación de texto">
+  <MessageClass Name="Message" Label="Mensaje" Option="Mostrar mensajes informativos" />
+  <MessageClass Name="Warning" Label="Advertencia" Option="Mostrar advertencias" />
+  <MessageClass Name="Error" Label="Error" Option="Mostrar errores" />
+  <MessageClass Name="Property" Label="Propiedad" Option="Mostrar metadatos" />
+  <MessageClass Name="Diagnostic" Label="Mensaje" Option="Mostrar mensajes de diagnóstico" />
+  <Message Timestamp="2014-12-13T11:34:42" Importance="High" Text="Se inició la ingeniería inversa." />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: '3265bb8b-5657-43a4-8e82-0d7fdfe29ba0' -  (ClassifierTemplateParameter)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados' -  (Package)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados::Estadisticas' -  (Class)  (ingeniería inversa parcial, definición no actualizada) " />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Medium" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados::LibroDeCalificaciones' -  (Class)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados::LibroDeCalificaciones::AddCalificacion' -  (Operation)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados::LibroDeCalificaciones::AddCalificacion::calificacion' -  (Parameter)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados::LibroDeCalificaciones::calificaciones' -  (Property)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados::LibroDeCalificaciones::GenerarEstadistica' -  (Operation)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados::LibroDeCalificaciones::LibroDeCalificaciones' -  (Operation)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados::LibroDeCalificaciones::MaximaCalificacion' -  (Property)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::Grados::LibroDeCalificaciones::MinimaCalificacion' -  (Property)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::System' -  (Package)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::System::Collections' -  (Package)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::System::Collections::Generic' -  (Package)" />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::System::Collections::Generic::List' -  (Class)  (ingeniería inversa parcial, definición no actualizada) " />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::System::Collections::Generic::List&lt;Single‎&gt;' -  (Class)  (ingeniería inversa parcial, definición no actualizada) " />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ModelingProject1::System::Single' -  (Class)  (ingeniería inversa parcial, definición no actualizada) " />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="High" Text="Se realizó ingeniería inversa total de los siguientes tipos: (1)." />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="High" Text="Se realizó ingeniería inversa parcial de los siguientes tipos: (4). Estos tipos no se incluyeron en la selección original, por lo que no se realizó ingeniería inversa de sus definiciones completas. En su lugar, esta operación superficial se limita a asegurarse de que estos tipos existen en el modelo UML porque son necesarios para describir a otros elementos por completo." />
+  <Message Timestamp="2014-12-13T11:34:44" Importance="High" Text="La operación de ingeniería inversa se completó con (0) errores y (0) advertencias." />
+</Log>
