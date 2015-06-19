@@ -17,22 +17,17 @@ namespace Grados
             //libro.AddCalificacion(75);
             try
             {
-                string[] lineas = File.ReadAllLines("Calificaciones.txt");
-            
-                foreach (var elem in lineas)
+                FileStream stream = File.Open("Calificaciones.txt", FileMode.Open);
+                StreamReader reader = new StreamReader(stream);
+                string linea = reader.ReadLine();
+                while (linea != null)
                 {
-                    float calificacion = float.Parse(elem);
+                    float calificacion = float.Parse(linea);
                     libro.AddCalificacion(calificacion);
-                }
+                    linea = reader.ReadLine();
+                }             
 
-            }
-            //catch (DivideByZeroException ex)
-            //{
-            //    Console.WriteLine("Detalle del error {0}{1}", ex.Message, ". Oprima Enter para continuar");
-            //    Console.ReadKey();
-            //    return;
-            //}
-
+            }        
             catch (FileNotFoundException ex)
             {
                 Console.WriteLine("Archivo no encontrado");
@@ -41,12 +36,10 @@ namespace Grados
                 Console.ReadKey();
                 return;
             }
-            catch (Exception ex)
+            catch (UnauthorizedAccessException ex)
             {
-                Console.WriteLine("ERROR no especificado");
-                Console.WriteLine("Detalle del error {0}{1}", ex.Message, ". Oprima Enter para continuar");
-                //  Console.WriteLine("Oprima Enter para continuar");
-                Console.ReadKey();
+                Console.WriteLine("No tiene permisos para acceder al archivo");
+                Console.ReadLine();
                 return;
             }
             libro.EscribirCalificaciones(Console.Out);
