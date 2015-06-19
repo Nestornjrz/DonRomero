@@ -15,18 +15,21 @@ namespace Grados
             //libro.AddCalificacion(97f);
             //libro.AddCalificacion(89.5f);
             //libro.AddCalificacion(75);
+            FileStream stream = null;
+            StreamReader reader = null;
             try
             {
-                FileStream stream = File.Open("Calificaciones.txt", FileMode.Open);
-                StreamReader reader = new StreamReader(stream);
+                stream = File.Open("Calificaciones.txt", FileMode.Open);
+                reader = new StreamReader(stream);
                 string linea = reader.ReadLine();
                 while (linea != null)
                 {
                     float calificacion = float.Parse(linea);
                     libro.AddCalificacion(calificacion);
                     linea = reader.ReadLine();
-                }             
-
+                }
+                reader.Close();
+                stream.Close();
             }        
             catch (FileNotFoundException ex)
             {
@@ -41,6 +44,14 @@ namespace Grados
                 Console.WriteLine("No tiene permisos para acceder al archivo");
                 Console.ReadLine();
                 return;
+            }
+            finally     
+            {
+                if (reader != null){reader.Close();}
+                if (stream != null)
+                {
+                    stream.Close();
+                }
             }
             libro.EscribirCalificaciones(Console.Out);
             Estadisticas est = libro.GenerarEstadistica();
