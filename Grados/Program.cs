@@ -15,27 +15,26 @@ namespace Grados
             //libro.AddCalificacion(97f);
             //libro.AddCalificacion(89.5f);
             //libro.AddCalificacion(75);
-            FileStream stream = null;
-            StreamReader reader = null;
+           
             try
             {
-                stream = File.Open("Calificaciones.txt", FileMode.Open);
-                reader = new StreamReader(stream);
-                string linea = reader.ReadLine();
-                while (linea != null)
+                using (FileStream stream = File.Open("Calificaciones.txt", FileMode.Open))
+                using (StreamReader reader = new StreamReader(stream))
                 {
-                    float calificacion = float.Parse(linea);
-                    libro.AddCalificacion(calificacion);
-                    linea = reader.ReadLine();
+                    string linea = reader.ReadLine();
+                    while (linea != null)
+                    {
+                        float calificacion = float.Parse(linea);
+                        libro.AddCalificacion(calificacion);
+                        linea = reader.ReadLine();
+                    }
                 }
-                reader.Close();
-                stream.Close();
-            }        
+            }
             catch (FileNotFoundException ex)
             {
                 Console.WriteLine("Archivo no encontrado");
                 Console.WriteLine("Detalle del error {0}{1}", ex.Message, ". Oprima Enter para continuar");
-              //  Console.WriteLine("Oprima Enter para continuar");
+                //  Console.WriteLine("Oprima Enter para continuar");
                 Console.ReadKey();
                 return;
             }
@@ -45,9 +44,9 @@ namespace Grados
                 Console.ReadLine();
                 return;
             }
-            finally     
+            finally
             {
-                if (reader != null){reader.Close();}
+                if (reader != null) { reader.Close(); }
                 if (stream != null)
                 {
                     stream.Close();
@@ -81,6 +80,8 @@ namespace Grados
             //ProbandoGoto();
             ProbandoReturn();
         }
+
+     
 
         #region metodos de program
         private static void ProbandoReturn()
